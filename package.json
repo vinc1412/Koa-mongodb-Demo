@@ -1,7 +1,7 @@
 {
-  "name": "koatest",
+  "name": "koa mongodb demo",
   "version": "1.0.0",
-  "description": "koa test",
+  "description": "koa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.1",
-    "jquery": "^1.9.1",
+    "jquery": "^3.0.0",
     "koa": "^2.5.1",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "mongodb": "^3.0.10",
     "popper.js": "^1.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinc1412/Koa-mongodb-Demo"
   }
 }
