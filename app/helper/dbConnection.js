@@ -43,19 +43,3 @@ module.exports = {
 	insertOneRecord: insertOneRecord
 }
 
-/*
-async function createCollection(url,name){
-	return new Promise((resolve,reject)=>{
-		var db = await createDb(url)
-		var dbo = db.db(dbName)
-		dbo.createCollection(name, function(err,res){
-			if(err){
-				reject(err)
-			}else{
-				console.log("collection user created")
-				db.close()
-				resolve(res)
-			}
-		})
-	})
-}*/
